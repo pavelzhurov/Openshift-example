@@ -1,8 +1,16 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>{{ title }} - Microblog</title>
-    </head>
-    <body>
-        <h1>Hello, {{ user.username }}!</h1>
-    </body>
+<body>
+
+<h1>Please, put your name</h1>
+
+<form action="/hello?fname=fname&lname=lname">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
 </html>
