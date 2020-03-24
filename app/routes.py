@@ -13,4 +13,4 @@ def index():
 def hello():
     fname = request.args.get('fname')
     lname = request.args.get('lname')
-    return render_template('hello.html', fname=fname, lname=lname)
+    return render_template('hello.html', fname=fname, lname=lname, title="Test")

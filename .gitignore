@@ -1,3 +1,4 @@
 # Project exclude paths
 /venv/
 .idea/
+push_to_test_ose.sh
